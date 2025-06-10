@@ -1,0 +1,17 @@
+# Core requirements
+streamlit==1.35.0
+mysql-connector-python==8.4.0
+
+# Google API clients for Gmail & Calendar
+google-api-python-client==2.126.0
+google-auth==2.29.0
+google-auth-oauthlib==1.2.0
+
+# HTTP requests
+requests==2.32.3
+
+# Email handling
+email-validator==2.1.1  # Optional for validating email structure
+
+# Optional: Use watchdog for live Streamlit reloads
+watchdog==4.0.1
